@@ -14,4 +14,9 @@ public class PortalController {
     public String index() {
         return "Hello world!";
     }
+
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "Welcome!";
+    }
 }
